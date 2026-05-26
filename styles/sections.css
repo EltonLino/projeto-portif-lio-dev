@@ -1,0 +1,118 @@
+#hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+}
+
+#info {
+  width: 1040px;
+  margin: auto;
+  text-align: center;
+}
+
+#hero header {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 163px 183px 163px;
+  gap: 56px;
+}
+
+.perfil {
+  position: relative;
+  width: 112px;
+  margin: auto;
+}
+
+.perfil img:nth-child(1) {
+  border: solid 2px var(--primary-red);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.perfil img:nth-child(2) {
+  position: absolute;
+  bottom: 8px;
+  right: 0px;
+}
+
+.subtitle {
+  color: var(--base-gray-200);
+  margin-bottom: 8px;
+
+  span {
+    color: var(--primary-red);
+  }
+}
+
+.title-lg {
+  color: var(--base-gray-100);
+  margin-bottom: 20px;
+}
+
+.text-sm {
+  color: var(--base-gray-300);
+}
+
+#hardskills ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+#hardskills ul li {
+  background-color: var(--base-gray-400);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--base-gray-200);
+  padding: 8px 16px;
+  border-radius: 100px;
+}
+
+#hardskills ul li .icon {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  background-color: currentColor;
+}
+
+#hardskills ul li .icon-github {
+  mask: url("../assets/icons/GitHub.svg") no-repeat center / contain;
+  -webkit-mask: url("../assets/icons/GitHub.svg") no-repeat center / contain;
+}
+
+#hardskills ul li .icon-html {
+  mask: url("../assets/icons/HTML.svg") no-repeat center / contain;
+  -webkit-mask: url("../assets/icons/HTML.svg") no-repeat center / contain;
+}
+
+#hardskills ul li .icon-css {
+  mask: url("../assets/icons/CSS.svg") no-repeat center / contain;
+  -webkit-mask: url("../assets/icons/CSS.svg") no-repeat center / contain;
+}
+
+#hardskills ul li .icon-js {
+  mask: url("../assets/icons/JavaScript.svg") no-repeat center / contain;
+  -webkit-mask: url("../assets/icons/JavaScript.svg") no-repeat center / contain;
+}
+
+#hardskills ul li .icon-react {
+  mask: url("../assets/icons/React.svg") no-repeat center / contain;
+  -webkit-mask: url("../assets/icons/React.svg") no-repeat center / contain;
+}
+
+#hardskills ul li .icon-node {
+  mask: url("../assets/icons/Node.js.svg") no-repeat center / contain;
+  -webkit-mask: url("../assets/icons/Node.js.svg") no-repeat center / contain;
+}
+
+.down-arrow{
+    background-image: url(../assets/icons/down-arrow.svg);
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 32px;
+    width: 32px;
+}

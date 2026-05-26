@@ -26,3 +26,26 @@
     display: grid;
 }
 
+.red{
+    color: var(--primary-red);
+}
+
+.purple{
+    color: var(--primary-purple);
+}
+
+.blue{
+    color: var(--primary-blue);
+}
+
+.green{
+    color: var(--primary-green);
+}
+
+.yellow{
+    color: var(--primary-yellow);
+}
+
+.container{
+    padding-block: 120px;
+}
