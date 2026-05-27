@@ -149,6 +149,7 @@
 .card:hover{
   border: 1px solid var(--base-gray-300);
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .cards-projetos{
@@ -156,3 +157,53 @@
   margin: auto;
   row-gap: 24px;
 }
+
+#services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--base-gray-600);
+  padding-inline: 120px;
+  padding-bottom: 120px;
+
+  header{
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-block: 88px 56px;
+  }
+
+  .icons-services{
+    display: grid;
+    grid-auto-flow: column;
+    width: 888px;
+    gap: 24px;
+  }
+
+  .card-service{
+
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    border: 1px solid var(--base-gray-500);
+    border-radius: 12px;
+    padding: 20px;
+    
+    img{
+      width: 48px;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .card-service-info{
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+  }
+}
+
