@@ -22,10 +22,29 @@
     font: var(--text-sm);
 }
 
+.gray-100{
+color: var(--base-gray-100);
+}
+
+.gray-200{
+color: var(--base-gray-200);
+}
+
+.gray-300{
+color: var(--base-gray-300);
+}
+
+.gray-400{
+color: var(--base-gray-400);
+}
+
 .grid{
     display: grid;
 }
 
+.grid-col-3{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .red{
     color: var(--primary-red);
 }
@@ -46,6 +65,3 @@
     color: var(--primary-yellow);
 }
 
-.container{
-    padding-block: 120px;
-}
